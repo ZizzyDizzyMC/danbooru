@@ -1,6 +1,6 @@
 set :user, "danbooru"
 set :rails_env, "production"
-server "yeet", :roles => %w(web app db worker), :primary => true
+server "memes", :roles => %w(web app db worker), :primary => true
 #server "shima", :roles => %w(web app)
 #server "saitou", :roles => %w(web app)
 #server "oogaki", :roles => %w(worker)
